@@ -126,25 +126,25 @@
         <vertex position="240.0 165.0 272.0"/>
         <vertex position="290.0 165.0 114.0"/>
 
-        <vertex position="290.0   0.0 114.0"/>
+        <vertex position="290.0   1.0 114.0"/>
         <vertex position="290.0 165.0 114.0"/>
         <vertex position="240.0 165.0 272.0"/>
-        <vertex position="240.0   0.0 272.0"/>
+        <vertex position="240.0   1.0 272.0"/>
 
-        <vertex position="130.0   0.0  65.0"/>
+        <vertex position="130.0   1.0  65.0"/>
         <vertex position="130.0 165.0  65.0"/>
         <vertex position="290.0 165.0 114.0"/>
-        <vertex position="290.0   0.0 114.0"/>
+        <vertex position="290.0   1.0 114.0"/>
 
-        <vertex position="82.0   0.0 225.0"/>
+        <vertex position="82.0   1.0 225.0"/>
         <vertex position="82.0 165.0 225.0"/>
         <vertex position="130.0 165.0  65.0"/>
-        <vertex position="130.0   0.0  65.0"/>
+        <vertex position="130.0   1.0  65.0"/>
 
-        <vertex position="240.0   0.0 272.0"/>
+        <vertex position="240.0   1.0 272.0"/>
         <vertex position="240.0 165.0 272.0"/>
         <vertex position=" 82.0 165.0 225.0"/>
-        <vertex position="82.0   0.0 225.0"/>
+        <vertex position="82.0   1.0 225.0"/>
 
         <index value="0"/>
         <index value="1"/>
@@ -176,6 +176,13 @@
         <index value="17"/>
         <index value="19"/>
         <index value="18"/>
+        <!-- added -->
+        <index value="4" />
+        <index value="7" />
+        <index value="8" />
+        <index value="7" />
+        <index value="12" />
+        <index value="8" />
 
         <material type="lambertian">
             <albedo value="1 1 1"/>

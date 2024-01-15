@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<objs path="C:\\Users\\10611\\Desktop\\11-obj\\test2.obj"/>
+
+	<model type="sphere">
+		<center value="-2.0 5.5 -2.0"/>
+		<radius value="0.5"/>
+
+		<material type="volumetric">
+			<albedo value="1 1 1"/>
+			<emission value="1 1 0"/>
+			<emission_strength value="5"/>
+		</material>
+	</model>
+
+	<model type="sphere">
+		<center value="3.0 5.5 -2.7"/>
+		<radius value="0.5"/>
+
+		<material type="volumetric">
+			<albedo value="1 1 1"/>
+			<emission value="0 1 1"/>
+			<emission_strength value="5"/>
+		</material>
+	</model>
+</scene>
+

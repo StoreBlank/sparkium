@@ -523,6 +523,11 @@ Scene::Scene(const std::string &filename) : Scene() {
       } else {
         AddEntity(AcceleratedMesh(mesh), material, transformation);
       }
+    } else if (element_type == "objs") {
+      std::string file_path = child_element->FindAttribute("path")->Value();
+      glm::mat4 transformation = XmlComposeTransformMatrix(child_element);
+
+      LoadObjs(file_path, transformation);
     } else {
       LAND_ERROR("Unknown Element Type: {}", child_element->Value());
     }

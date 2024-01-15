@@ -38,7 +38,7 @@ glm::vec3 PathTracer::VolumetricShade(HitRecord intersection,
   const float pi = 3.1415926;
   static std::default_random_engine e(std::random_device{}());
   // need to be adjusted according to the scene size
-  const float ray_march_step_size = 0.3f;
+  const float ray_march_step_size = 1.0f;
   static std::uniform_real_distribution<double> u_jitter(0, ray_march_step_size);
   // jitter
   const float march_beginning = u_jitter(e);

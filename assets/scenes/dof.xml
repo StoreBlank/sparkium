@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<camera>
+		<transform type="lookat">
+			<eye value="3.0 1.2 0.0"/>
+			<center value="-20.0 0.0 0.0"/>
+			<up value="0.0 1.0 0.0"/>
+		</transform>
+	</camera>
+
+	<model type="obj">
+		<filename value="../../meshes/plane.obj"/>
+
+		<transform type="world">
+			<scale value="20 20 20"/>
+		</transform>
+
+		<material type="lambertian">
+			<albedo value="0.8 0.8 0.8"/>
+		</material>
+	</model>
+
+	<model type="sphere">
+		<center value="0.0 0.5 1.0"/>
+		<radius value="0.5"/>
+
+		<material type="lambertian">
+			<albedo value="0 1 0"/>
+		</material>
+	</model>
+
+	<model type="sphere">
+		<center value="-10.0 1.5 -1.2"/>
+		<radius value="1.5"/>
+
+		<material type="lambertian">
+			<albedo value="0 1 0"/>
+		</material>
+	</model>
+</scene>
