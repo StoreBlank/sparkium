@@ -13,6 +13,7 @@ class PathTracer {
                                     int y,
                                     int sample) const;
   glm::vec3 Shade(HitRecord interseciton, glm::vec3 wo, int depth) const;
+  glm::vec3 VolumetricShade(HitRecord intersection, glm::vec3 wo, int depth) const;
   bool RR(double p) const;
   struct SampledResult {
     glm::vec3 ray;
